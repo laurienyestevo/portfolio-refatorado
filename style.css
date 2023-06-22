@@ -294,7 +294,7 @@ i.menu-mobile {
     overflow: hidden;
 }
 .menu-nav-active #header {
-    left: 0;
+    left: -200;
 }
 
 
