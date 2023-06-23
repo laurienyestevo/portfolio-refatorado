@@ -489,13 +489,15 @@ main{
     
 }
 
+/*Skills*/
+
 .skills-main{
     margin-left: 250px;
     
 }
 .wrapper{
     width: 80%;
-    min-width: 500px;
+    
     position: relative;
     margin: 0 auto;
     
