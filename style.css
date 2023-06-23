@@ -397,7 +397,6 @@ main{
 
 
 .home-row{
-    
     display: flex;
     position: absolute;
     top: 40%;
@@ -499,7 +498,7 @@ main{
     
 }
 .wrapper{
-    width: 80%;
+    width: 100%;
     min-width: 500px;
     position: relative;
     margin: 0 auto;
@@ -507,7 +506,7 @@ main{
     
 }
 .container-skills{
-    width: 100%;
+    
     padding: 50px 30px;
     background-color: rgba(255,255,255,0.06);
     border: 2px solid rgba(255,255,255,0.06);
