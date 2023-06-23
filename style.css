@@ -845,9 +845,10 @@ h2{
 @media (max-width: 900px) {
     #projetos{
         margin-left: 0;
+        padding: 0;
     }
     .card {
-        width: 100%;
+        width: 80%;
         height: auto;
     }
 
