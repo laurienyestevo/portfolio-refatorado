@@ -300,12 +300,6 @@ i.menu-mobile {
 
 
 
-#button-toogle{
-    width: 3rem;
-    height: 3rem;
-    top: 2rem;
-    
-}
 
 
 #inicio{
@@ -325,6 +319,7 @@ i.menu-mobile {
       }
       i.menu-mobile{
         display: flex;
+        position: absolute;
       }
       
     aside nav{
@@ -336,7 +331,7 @@ i.menu-mobile {
     aside .dark-ligth{
         margin-top: 1rem;
     }
-    .mobile-nav-active header{
+    .mobile-nav-active .header{
         left: 0;
     }
     
@@ -397,6 +392,7 @@ main{
 
 
 .home-row{
+    
     display: flex;
     position: absolute;
     top: 40%;
@@ -498,7 +494,7 @@ main{
     
 }
 .wrapper{
-    width: 100%;
+    width: 80%;
     min-width: 500px;
     position: relative;
     margin: 0 auto;
@@ -506,7 +502,7 @@ main{
     
 }
 .container-skills{
-    
+    width: 100%;
     padding: 50px 30px;
     background-color: rgba(255,255,255,0.06);
     border: 2px solid rgba(255,255,255,0.06);
