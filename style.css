@@ -70,20 +70,22 @@ body{
 }
 
 .header{
+    
     height: 100%;
     width: 250px;
-    padding: 15px 30px;
+    padding:0 15px;
     background: var(--second-bg-color);
     overflow-y: auto;
     position: fixed;
+    top: 0;
     left: 0;
     bottom: 0;
-    transition: 0.4s;
-    z-index: 999;
+    transition: all ease-in-out 0.5s;
+    z-index: 9999;
 
 }
 
-aside .profile{
+section.profile{
     text-align: center;
     margin: 0.62rem 0;
 }
@@ -271,17 +273,16 @@ footer {
 i.menu-mobile {
     position:fixed;
     color: #ede8e3;
-    text-align: center;
-    top: 2.5rem;
-    right: 2rem;
-    font-size: 2rem;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.5rem;
     width: 2.5rem;
     height: 2.5rem;
-    z-index: 999;
+    z-index: 10;
     display: none;
     line-height: 2rem;
     background-color: #149ddd;
-    border-radius: 50%;
+    border-radius: 4rem;
     width: 3rem;
     height: 3rem;
     align-items: center;
@@ -293,8 +294,8 @@ i.menu-mobile {
 .menu-nav-active {
     overflow: hidden;
 }
-.menu-nav-active #header {
-    left: -200;
+.menu-nav-active .header {
+    left: 0;
 }
 
 
@@ -318,13 +319,14 @@ i.menu-mobile {
 
 /*Mobile view */
 
-@media only screen and (max-width:768px){
-    #header {
+@media only screen and (max-width:900px){
+    .header {
         left: -250px;
       }
       i.menu-mobile{
         display: flex;
       }
+      
     aside nav{
         margin-top: 2rem;
     }
@@ -453,7 +455,7 @@ main{
 }
 
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width:900px){
         .title-main{
            font-size: 1.5rem; 
            text-align: center;
@@ -729,7 +731,7 @@ h2{
     flex-direction: column;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
     main{
         margin-left: 0px;
     }
@@ -762,7 +764,7 @@ h2{
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
    
     #curriculo{
         margin-left: 0;
@@ -839,7 +841,7 @@ h2{
     border-radius: 0.25rem;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     #projetos{
         margin-left: 0;
     }
@@ -922,7 +924,7 @@ h2{
     margin: 0 auto;
   }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     #contato{
     margin-left: 0;
     
