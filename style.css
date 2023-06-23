@@ -397,7 +397,7 @@ main{
 
 
 .home-row{
-    width: 500px;
+    
     display: flex;
     position: absolute;
     top: 40%;
@@ -457,8 +457,12 @@ main{
 
 @media only screen and (max-width:900px){
         .title-main{
-           font-size: 1.5rem; 
+           font-size: 2rem; 
            text-align: center;
+        }
+        .title-sub{
+            font-size: 1.3rem;
+            text-align: center;
         }
         .about{
             margin-left:0px;
