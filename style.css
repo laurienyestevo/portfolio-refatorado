@@ -221,7 +221,7 @@ i.menu-mobile {
     color: var(--text-color);
     top: 1rem;
     right: 1rem;
-    font-size: var(--fs-4);
+    font-size: var(--fs-7);
     width: 1.3rem;
     height: 1.3rem;
     z-index: 10;
@@ -229,8 +229,8 @@ i.menu-mobile {
     line-height: var();
     background-color: var(--social-icon);
     border-radius: 4rem;
-    width: 3rem;
-    height: 3rem;
+    width: 4rem;
+    height: 4rem;
     align-items: center;
     justify-content: center;
     
